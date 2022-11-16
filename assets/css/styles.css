@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 :root{
     --dark:#2b2d42;
@@ -15,7 +15,7 @@
 
 a {
     text-decoration: none;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .container{
@@ -66,14 +66,14 @@ a {
 }
 
 #header nav {
-    background-color: #06d6a0;
+    background-color: #19aae4;
     padding: 1em 0;
     width: 100%;
 }
 
 #site-main {
     margin-top: 6em;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Source Code Pro', monospace;
 }
 
 #site-main .container .box-nav > a {
@@ -104,7 +104,7 @@ table {
 }
 
 .table tr:hover{
-    background-color: #06d6a0;
+    background-color: #19aae4;
 }
 
 .table tr:hover td > a {
@@ -159,7 +159,7 @@ table {
     padding: .6em 1em;
     margin: .5em 0;
     border: 1px solid var(--border);
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Source Code Pro', monospace;
     font-size: 1em;
     border-radius: .2em;
 }
@@ -192,13 +192,13 @@ table {
 }
 
 .radio input[type='radio']:checked + .radio-label:before {
-    background-color: #16db93;
+    background-color: #19aae4;
     box-shadow: inset 0 0 0 4px #e9ecef;
 }
 
 .radio input[type='radio']:focus + .radio-label:before {
     outline: none;
-    border-color: #16db93;
+    border-color: #19aae4;
 }
 
 .radio input[type='radio']:disabled + .radio-label:before {
@@ -210,9 +210,9 @@ table {
 #update_contact .form-group .btn, #add_contact .form-group .btn {
     width: 100%;
     padding: .9em 1em;
-    background-color: #16db93;
+    background-color: #19aae4;
     border: none;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
     font-size: 1em;
     cursor: pointer;
     border-radius: .2em;
